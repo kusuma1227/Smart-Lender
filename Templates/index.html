@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Lender</title>
+</head>
+<body>
+
+<h1>Smart Lender - Loan Prediction</h1>
+
+<form action="/predict" method="post">
+
+    <label>Gender (Male=1, Female=0)</label><br>
+    <input type="number" name="Gender" required><br><br>
+
+    <label>Married (Yes=1, No=0)</label><br>
+    <input type="number" name="Married" required><br><br>
+
+    <label>Dependents</label><br>
+    <input type="number" name="Dependents" required><br><br>
+
+    <label>Education (Graduate=1, Not Graduate=0)</label><br>
+    <input type="number" name="Education" required><br><br>
+
+    <label>Self Employed (Yes=1, No=0)</label><br>
+    <input type="number" name="Self_Employed" required><br><br>
+
+    <label>Applicant Income</label><br>
+    <input type="number" name="ApplicantIncome" required><br><br>
+
+    <label>Coapplicant Income</label><br>
+    <input type="number" name="CoapplicantIncome" required><br><br>
+
+    <label>Loan Amount</label><br>
+    <input type="number" name="LoanAmount" required><br><br>
+
+    <label>Loan Amount Term</label><br>
+    <input type="number" name="Loan_Amount_Term" required><br><br>
+
+    <label>Credit History (1 or 0)</label><br>
+    <input type="number" name="Credit_History" required><br><br>
+
+    <label>Property Area (Urban=2, Semiurban=1, Rural=0)</label><br>
+    <input type="number" name="Property_Area" required><br><br>
+
+    <input type="submit" value="Predict Loan">
+
+</form>
+
+</body>
+</html>
